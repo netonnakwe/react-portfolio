@@ -1,6 +1,9 @@
 import React from "react";
 import WorkImg from "../assets/workImg.jpeg";
 import RealEstate from "../assets/realestate.jpg";
+import Calendar from "../assets/Calendar.jpg";
+import Dashboard from "../assets/Dashboard.jpg";
+
 
 const Work = () => {
   return (
@@ -38,7 +41,7 @@ const Work = () => {
             
           </div>
           <div
-            style={{ backgroundImage: `url(${RealEstate})` }}
+            style={{ backgroundImage: `url(${Calendar})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
@@ -62,7 +65,7 @@ const Work = () => {
 
         </div>
         <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${Dashboard})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
